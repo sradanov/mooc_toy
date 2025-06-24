@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>FileSender</title>
+        <link type="text/css" rel="stylesheet" href="/filesender/lib/jquery-ui/jquery-ui.min.css" />
+        <link type="text/css" rel="stylesheet" href="/filesender/lib/font-awesome/css/font-awesome.min.css" />
+        <link type="text/css" rel="stylesheet" href="/filesender/lib/bootstrap/dist/css/bootstrap.min.css" />
+        <link type="text/css" rel="stylesheet" href="/filesender/lib/flag-icons/css/flag-icons.min.css" />
+        <link type="text/css" rel="stylesheet" href="/filesender/css/default.css" />
+        <link type="text/css" rel="stylesheet" href="/filesender/css/new-ui/styles.css" />
+        <link type="text/css" rel="stylesheet" href="/filesender/css/themes/default.css" />
+        <link type="image/x-icon" rel="icon" href="/filesender/images/favicon.ico" />
+        <script type="text/javascript" src="/filesender/lib/jquery/jquery.min.js"></script>
+        <script type="text/javascript" src="/filesender/lib/jquery-ui/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="/filesender/lib/promise-polyfill/polyfill.min.js"></script>
+        <script type="text/javascript" src="/filesender/lib/web-streams-polyfill/dist/ponyfill.js"></script>
+        <script type="text/javascript" src="/filesender/lib/webcrypto-shim/webcrypto-shim.min.js"></script>
+        <script type="text/javascript" src="/filesender/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script type="text/javascript" src="/filesender/lib/bootbox/dist/bootbox.all.min.js"></script>
+        <script type="text/javascript" src="/filesender/js/filesender.js"></script>
+        <script type="text/javascript" src="/filesender/js/lang.js"></script>
+        <script type="text/javascript" src="/filesender/js/client.js"></script>
+        <script type="text/javascript" src="/filesender/js/transfer.js"></script>
+        <script type="text/javascript" src="/filesender/js/logger.js"></script>
+        <script type="text/javascript" src="/filesender/js/ui.js"></script>
+        <script type="text/javascript" src="/filesender/js/FileSaver.js"></script>
+        <script type="text/javascript" src="/filesender/js/crypter/crypto_common.js"></script>
+        <script type="text/javascript" src="/filesender/js/crypter/crypto_blob_reader.js"></script>
+        <script type="text/javascript" src="/filesender/js/crypter/crypto_app.js"></script>
+        <script type="text/javascript" src="/filesender/js/pbkdf2dialog.js"></script>
+        <script type="text/javascript" src="/filesender/js/notification.js"></script>
+        <script type="text/javascript" src="/filesender/lib/xregexp/xregexp-all.js"></script>
+        <script type="text/javascript" src="/filesender/js/theme.js"></script>
+        <script type="text/javascript" src="/filesender/js/terasender/terasender.js"></script>
+        <script type="text/javascript" src="/filesender/filesender-config.js.php"></script>
+        <script type="text/javascript" src="/filesender/rest.php/lang?callback=lang.setTranslations"></script>
+        <meta name="robots" content="noindex, nofollow" />
+        <meta name="auth" content="noindex, nofollow" />
+    </head>
+    <body data-security-token="cc0aaa53-b13b-4476-bd08-df2990bae381" data-auth-type="">
+
+<!-- template:menu start -->
+
+<!-- New UI header - BEGIN -->
+<header>
+    <nav>
+        <a class="fs-link fs-link--no-hover" href="/filesender/">
+            <img id="logo" class="fs-link fs-link--no-hover" src="/filesender/images/CNRM.png" alt="FileSender" />
+        </a>
+        <ul>
+            <li><a class="fs-link "  id="topmenu_help" href="?s=help"><i class="fa fa-question-circle"></i> <span>Help</span></a></li><li><a class="fs-link "  id="topmenu_about" href="?s=about"><i class="fa fa-info-circle"></i> <span>About</span></a></li><li><a class="fs-link "  id="topmenu_privacy" href="?s=privacy"><i class="fa fa-lock"></i> <span>Privacy</span></a></li><li><a class="fs-link" href="https://filesender.umr-cnrm.fr/simplesaml/module.php/saml/sp/login/default-sp?ReturnTo=https%3A%2F%2Ffilesender.umr-cnrm.fr%2Ffilesender%2F%3Fs%3DuploadAuthId=default-sp&amp;ReturnTo=https%3A%2F%2Ffilesender.umr-cnrm.fr%2Ffilesender%2F%3Fs%3Dupload" id="topmenu_logon"><i class="fa fa-sign-in"></i> <span>Login</span></a></li>
+        </ul>
+    </nav>
+</header> <!-- New UI header - END -->
+
+<!-- template:menu end -->
+
+<!-- template:exception start -->
+<div class="exception">
+    The application encountered an error while processing your request
+    
+    <div class="message">
+        A token that is used to allow access is missing    </div>
+    
+        <pre class="details"></pre>
+        
+    <div class="report">
+            When reporting this error please give the following code to help the support finding out details : "685acbd9ce732"
+        </div>
+</div>
+
+<!-- template:exception end -->
+        <footer>
+            <div class="container">
+                <div class="fs-footer-container">
+                    <small>FileSender Silver and Gold contributors:</small>
+                    <img class="fs-footer-container__brand fs-footer-container__brand--desktop" src="https://filesender.umr-cnrm.fr/filesender//images/filesender-initiative.png" alt="Brand">
+                    <img class="fs-footer-container__brand fs-footer-container__brand--mobile" src="https://filesender.umr-cnrm.fr/filesender//images/filesender-initiative_mobile.png" alt="Brand">
+                </div>
+            </div>
+
+            
+        </footer>
+    </body>
+</html>
